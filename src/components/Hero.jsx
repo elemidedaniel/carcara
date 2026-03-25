@@ -38,9 +38,9 @@ export default function Hero() {
           </h1>
 
           {/* Sub */}
-          <p className="text-cream/50 text-sm font-sans font-light mt-5 max-w-xs leading-loose tracking-wide">
-            Contemporary Canadian cuisine rooted in the rhythms of British Columbia.
-          </p>
+   <p className="text-cream/50 text-sm font-sans font-light mt-5 max-w-xs leading-loose tracking-wide">
+  Contemporary American cuisine inspired by seasonal ingredients and regional flavors.
+</p>
 
           {/* CTAs */}
           <div className="flex gap-4 mt-8">
@@ -61,7 +61,7 @@ export default function Hero() {
           className="text-right hidden md:block"
         >
           <div className="text-cream text-[0.58rem] tracking-[0.28em] uppercase font-sans leading-loose">
-            <p className="text-cream font-light">Canada's 100 Best</p>
+            <p className="text-cream font-light">Arizona's 100 Best</p>
             <p>Restaurants 2024</p>
           </div>
           <div className="mt-3 text-cream text-[0.58rem] tracking-[0.28em] uppercase font-sans leading-loose">

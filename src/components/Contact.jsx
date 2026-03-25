@@ -15,10 +15,10 @@ const blocks = [
     label: 'Get in Touch',
     lines: [
       { text: '+1 604 000 1234', href: 'tel:+16040001234' },
-      { text: 'hello@maisonverite.com', href: 'mailto:hello@maisonverite.com' },
+      { text: 'hello@cascara.com', href: 'mailto:hello@cascara.com' },
       '',
       'For press & events:',
-      { text: 'press@maisonverite.com', href: 'mailto:press@maisonverite.com' },
+      { text: 'press@cascara.com', href: 'mailto:press@cascara.com' },
     ],
   },
   {
@@ -73,9 +73,9 @@ export default function Contact() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-serif text-cream/30 text-base tracking-wide">Maison Vérité</span>
+          <span className="font-serif text-cream/30 text-base tracking-wide">Cascara</span>
           <span className="text-cream/15 text-[0.6rem] tracking-[0.2em] font-sans">
-            © 2025 Maison Vérité. All rights reserved.
+            © 2025 Cascara. All rights reserved.
           </span>
           <div className="flex gap-6">
             {['Instagram', 'OpenTable', 'Privacy'].map(link => (
