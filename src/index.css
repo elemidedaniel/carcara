@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Jost', sans-serif; font-weight: 300; background: #f5f0e8; color: #2c1f14; overflow-x: hidden; }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: #ede6d6; }
+  ::-webkit-scrollbar-thumb { background: #b8924a; }
+
+  ::selection { background: #b8924a33; }
+}
+
+@layer utilities {
+  .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+  .font-sans  { font-family: 'Jost', sans-serif; }
+}
