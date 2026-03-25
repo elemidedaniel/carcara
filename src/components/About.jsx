@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import chefImg from '../assets/res1.jpg'
-import res5 from '../assets/res5.JPEG'
+import res5 from '../assets/res5.jpeg'
 
 const fadeUp = { hidden: { opacity: 0, y: 28 }, show: { opacity: 1, y: 0 } }
 
